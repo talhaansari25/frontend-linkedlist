@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(()=>{
-    window.history.pushState({}, '', 'https://obtaining-vacations-hazard-soil.trycloudflare.com/fresherseasyapplyforjobs-linkedin.com')
+    // window.history.pushState({}, '', 'https://obtaining-vacations-hazard-soil.trycloudflare.com/fresherseasyapplyforjobs-infosys-linkedin.com')
   },[])
   return (
     <div className="App">

